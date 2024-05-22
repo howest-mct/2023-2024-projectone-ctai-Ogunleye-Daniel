@@ -1,9 +1,9 @@
 # Project Title
 
-**FIRST & LAST NAME:** A B
+**FIRST & LAST NAME:** Daniel Ogunleye
 
-**Sparring Partner:** C D
+**Sparring Partner:** Rodrigo Sous
 
-**Project Summary in max 10 words:** E
+**Project Summary in max 10 words:** Unlock door(lock) if user is wearing a face mask properly
 
-**Project Title:** F
+**Project Title:** Face Mask Detection System
