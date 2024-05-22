@@ -11,8 +11,8 @@ def main():
     i = 0
     rx_q = queue.Queue()
     tx_q = queue.Queue()
-    device_name = "pj-pi-gatt-uart" # TODO: replace with your own (unique) device name
-    threading.Thread(target=ble_gatt_uart_loop, args=(rx_q, tx_q, device_name), daemon=True).start()
+    laptop_daniel = "pj-pi-gatt-uart" # TODO: replace with your own (unique) device name
+    threading.Thread(target=ble_gatt_uart_loop, args=(rx_q, tx_q, laptop_daniel), daemon=True).start()
     while True:
         try:
             incoming = rx_q.get(timeout=1) # Wait for up to 1 second 
