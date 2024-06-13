@@ -45,11 +45,6 @@ def show_preds_video(video_path, conf_threshold):
     out = cv2.VideoWriter('output_video.mp4',
                           cv2.VideoWriter_fourcc(*'MJPG'), fps, (w, h))
 
-
-
-
-
-
     # Looping through each frame of the video until it is opened.
     while (cap.isOpened()):
         # Reading the next frame from the video.
